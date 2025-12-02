@@ -1,0 +1,66 @@
+/* เอฟเฟกต์ของการ์ด */
+.contact-card, .social-card {
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* เมื่อ hover การ์ด */
+  .contact-card:hover, .social-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* สีไฮไลต์ */
+  .highlight {
+    font-weight: bold;
+    color: #ff6600;
+  }
+  
+  /* เอฟเฟกต์เบอร์โทร */
+  .phone {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* เอฟเฟกต์อีเมล */
+  .email-link {
+    color: #ff6600;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* ไอคอนโซเชียล */
+  .social-icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: #3b5998;
+  }
+  
+  .youtube {
+    color: #ff0000;
+  }
+  
+  /* เอฟเฟกต์เวลา hover ที่ลิงก์โซเชียล */
+  a {
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #ff6600;
+  }
+
+
+  .contact-background {
+    background-color: #fff9db; /* สีเหลืองอ่อน */
+    min-height: 100vh; /* ให้พื้นหลังครอบคลุมเต็มหน้าจอ */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }

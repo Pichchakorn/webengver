@@ -1,0 +1,51 @@
+/* ทำให้รูปภาพด้านบนดูเรียบและมีมุมโค้ง */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+/* ตัวการ์ดหลัก */
+.card {
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* ปรับขนาดและระยะห่างข้อความ */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* เมื่อแสดงแค่บางส่วน ให้ตัดข้อความ */
+.text-truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* เมื่อขยายเต็ม */
+.text-full {
+  white-space: normal;
+  overflow: visible;
+}
+
+/* ปรับปุ่มให้ดูโค้งและพอดี */
+.card .btn {
+  border-radius: 1.5rem;
+  font-size: 0.875rem;
+  padding: 6px 14px;
+}

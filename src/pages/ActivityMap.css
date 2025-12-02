@@ -1,0 +1,26 @@
+.info-section-background {
+  background-color: #F0F8FF; /* ขาวจาง กลืนกับเหลือง */
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  width: 90%;
+  margin: 2rem auto 4rem auto;
+}
+
+
+/* ปรับ card ข้างในให้มีสีพื้นเข้ากับ bg มากขึ้น และดูนุ่มขึ้น */
+.info-section-background .card {
+  background-color: #f9fbff; /* ฟ้าอ่อนจางๆ */
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.info-section-background .card:hover {
+  transform: translateY(-4px); /* เพิ่ม animation เล็กน้อยตอน hover */
+}
+
+.info-section-background h1 {
+  font-weight: 500;
+  color:black; 
+}

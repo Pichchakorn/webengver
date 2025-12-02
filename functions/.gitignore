@@ -1,0 +1,27 @@
+# Node modules (ไม่ควร push เพราะขนาดใหญ่และ regenerate ได้)
+node_modules/
+
+# Local environment files (เช่นไฟล์ที่มี API key, token)
+*.local
+.env
+.env.*  
+
+# Firebase service account key (สำคัญมาก ห้าม push ขึ้น Git)
+functions/tonywebproject-348e6973b60a.json
+
+# Logs & debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+/build
+/dist
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db

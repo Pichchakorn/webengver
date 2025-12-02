@@ -1,0 +1,28 @@
+{
+    "files": {
+      "main.css": "/static/css/main.fe220a85.css",
+      "main.js": "/static/js/main.79e8e7de.js",
+      "static/js/453.db109928.chunk.js": "/static/js/453.db109928.chunk.js",
+      "static/media/แบ่งต่อ13.jpg": "/static/media/แบ่งต่อ13.8d71805a3f524e4ca1d0.jpg",
+      "static/media/แบ่งต่อ3.jpg": "/static/media/แบ่งต่อ3.891b7d42d56bd76956b4.jpg",
+      "static/media/แบ่งต่อ6.jpg": "/static/media/แบ่งต่อ6.84721d7deddfba47d9e2.jpg",
+      "static/media/แบ่งต่อ1.jpg": "/static/media/แบ่งต่อ1.b2c73b004494b1983d90.jpg",
+      "static/media/logo.png": "/static/media/logo.6b9133f1bb3901540473.png",
+      "static/media/แบ่งต่อ10.jpg": "/static/media/แบ่งต่อ10.4f666456c4c93e9890d0.jpg",
+      "static/media/background.jpg": "/static/media/background.ed79e0af4a2da3f5d2d0.jpg",
+      "static/media/แบ่งต่อ2.jpg": "/static/media/แบ่งต่อ2.d34d607c7b8eb30dd9e8.jpg",
+      "static/media/แบ่งต่อ12.jpg": "/static/media/แบ่งต่อ12.742f58aa2965010ef16e.jpg",
+      "static/media/แบ่งต่อ9.jpg": "/static/media/แบ่งต่อ9.eadb1d8f32927452a57b.jpg",
+      "static/media/แบ่งต่อ11.jpg": "/static/media/แบ่งต่อ11.f1c8de81d2d7ebe3d1a7.jpg",
+      "static/media/แบ่งต่อ4.jpg": "/static/media/แบ่งต่อ4.cb4b9869fd652f169ce0.jpg",
+      "static/media/แบ่งต่อ14.jpg": "/static/media/แบ่งต่อ14.17c1106e8ca7d1a93913.jpg",
+      "index.html": "/index.html",
+      "main.fe220a85.css.map": "/static/css/main.fe220a85.css.map",
+      "main.79e8e7de.js.map": "/static/js/main.79e8e7de.js.map",
+      "453.db109928.chunk.js.map": "/static/js/453.db109928.chunk.js.map"
+    },
+    "entrypoints": [
+      "static/css/main.fe220a85.css",
+      "static/js/main.79e8e7de.js"
+    ]
+  }

@@ -1,0 +1,18 @@
+.text-truncate {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3 !important; /* แสดง 3 บรรทัด */
+    line-clamp: 3; /* <-- เพิ่มอันนี้ */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    line-height: 1.5em; /* คำนวณความสูงต่อบรรทัด */
+    max-height: calc(1.5em * 3) !important; /* สูงสุด 3 บรรทัด */
+    white-space: normal; /* ป้องกันไม่ให้ข้อความอยู่บรรทัดเดียว */
+}
+
+/* เมื่อกดอ่านเพิ่มเติม จะขยายเต็ม */
+.text-full {
+    display: block;
+    white-space: normal; /* อนุญาตให้ขึ้นบรรทัดใหม่ */
+}
